@@ -1,9 +1,9 @@
-# **Adversarial Training Collaborating Hybrid Convolution-Transformer Network for Automatic Identification of Reactive Lymphocytes in Peripheral Blood**
+# Adversarial Training Collaborating Hybrid Convolution-Transformer Network for Automatic Identification of Reactive Lymphocytes in Peripheral Blood
 
-## **Introduction**
+## Introduction
 Reactive lymphocytes may indicate diseases, such as viral infection. The identification of these abnormal lymphocytes is vital to the diagnosis of disease and the assessment of disease severity. In recent years, pathologists have relied primarily on morphological methods to identify reactive lymphocytes, but this requires a great deal of effort and time. Additionally, cytological methods are subject to other challenges in their application, including high-resolution microscopy requirements, staining effects, and the presence of some similarities among different types of cells. We have introduced innovations in reactive lymphocyte recognition as well as improved accuracy, scalability, reduced bias, and real-time diagnostics. Our method has the advantage of combining convolution and Transformer, allowing the model to extract both local and global information within cells accurately. First, we collected peripheral blood samples, prepared smears and stained them, and then scanned the smears into images using an electron microscope. Next, to create the dataset, we used a cell detection framework to detect and crop cells in the images. As reactive lymphocytes may sometimes be confused with other peripheral blood cells, the dataset also includes eosinophils, neutrophils, lymphocytes, monocytes, and blasts. Finally, we input cell images into the model for training, allowing the model to learn the characteristics of various types of cells. In addition, we also enhanced the generalization of the model through virtual adversarial training. According to the results, on the validation set, the model achieved an accuracy of 93.80%, while on the test set, it achieved 93.6%.
 
-## **Dataset**
+## Dataset
 We use peripheral blood cell images provided by the Laboratory of Hematology Zhongnan Hospital of Wuhan University as the dataset. There are six types of cells in the dataset, including eosinophil, lymphocyte, monocyte, neutrophil, blast and reactive lymphocyte.
 ```
 /PeripheralBloodDataset/
@@ -26,7 +26,7 @@ We use peripheral blood cell images provided by the Laboratory of Hematology Zho
     ...
 ```
 
-## **Model**
+## Model
 We use [Next-ViT](https://github.com/bytedance/Next-ViT) as our identification model. Next-ViT is a model that combines the advantages of convolution and Transformer. Convolution helps the model extract detailed information in cells, while Transformer helps the model extract global information in cells.
 
 <div style="text-align: center">
@@ -34,12 +34,12 @@ We use [Next-ViT](https://github.com/bytedance/Next-ViT) as our identification m
 </div>
 
 
-## **Environment**
+## Environment
 - OS: Ubuntu 23.04
 - Software: Python 3.9.16
 - GPU: NVIDIA RTX 3070 Ti
 
-## **Installation**
+## Installation
 First, clone the repository locally:
 ```
 git clone https://github.com/matr1x-86/reactive-lymphocyte-identification.git
@@ -59,7 +59,7 @@ Last, install remaining packages:
 pip install -r requirements.txt
 ```
 
-## **Training**
+## Training
 Get pertrained model from [here](https://drive.google.com/file/d/1b7ChnlT3uG3pTaZjtwYtnAaxAESF0MqK/view?usp=sharing).
 ```
 cd reactive-lymphocyte-identification
