@@ -30,7 +30,7 @@ We use peripheral blood cell images provided by the Laboratory of Hematology Zho
 We use [Next-ViT](https://github.com/bytedance/Next-ViT) as our identification model. Next-ViT is a model that combines the advantages of convolution and Transformer. Convolution helps the model extract detailed information in cells, while Transformer helps the model extract global information in cells.
 
 <div style="text-align: center">
-<img src="images/model.jpg" title="model" height="50%" width="50%">
+<img src="images/model.jpg" title="model" height="80%" width="80%">
 </div>
 
 
