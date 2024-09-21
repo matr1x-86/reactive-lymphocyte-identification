@@ -1,7 +1,7 @@
 # Adversarial Training Collaborating Hybrid Convolution-Transformer Network for Automatic Identification of Reactive Lymphocytes in Peripheral Blood
 ⭐ This code has been completely released ⭐ 
 
-⭐ our [article]() ⭐ 
+⭐ our [article](https://opg.optica.org/boe/viewmedia.cfm?uri=boe-15-9-5143&html=true) ⭐ 
 
 If our code is helpful to you, please cite:
 ```
