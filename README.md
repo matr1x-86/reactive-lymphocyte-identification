@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 ## Train
 ### 1. Prepare training data
-- The download link for our dataset is [here](https://pan.baidu.com/s/1-raJiW7a3Es0MFk-5VMKqQ?pwd=wf5f).
+The download link for our dataset is [here](https://pan.baidu.com/s/1-raJiW7a3Es0MFk-5VMKqQ?pwd=wf5f).
 ```
 PBC
 ├── train
