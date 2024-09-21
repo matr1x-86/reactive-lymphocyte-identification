@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 ## Train
 ### 1. Prepare training data
-- The download link for out dataset is [here](https://pan.baidu.com/s/1-raJiW7a3Es0MFk-5VMKqQ?pwd=wf5f).
+- The download link for our dataset is [here](https://pan.baidu.com/s/1-raJiW7a3Es0MFk-5VMKqQ?pwd=wf5f).
 ```
 PBC
 ├── train
@@ -49,7 +49,9 @@ PBC
 ├── val
 ├── test
 ```
-### 2. Begin to train
+### 2. Weigts (Optional)
+- The download link for our weights is [here](https://pan.baidu.com/s/1Alwscm-GYbtHtbNr5apAXw?pwd=435b).
+### 3. Begin to train
 ```
 bash train.sh --model nextvit_small --batch-size 32 --lr 3e-4 --warmup-epochs 0 -weight-decay 1e-8 --epochs 100 --sched step --decay-epochs 80 --input-size 224 -resume ../checkpoints/nextvit_small_in1k_224.pth --finetune --data-path
 your_imagenet_path
