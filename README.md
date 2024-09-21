@@ -5,6 +5,16 @@
 
 If our code is helpful to you, please cite:
 ```
+@article{mei2024adversarial,
+  title={Adversarial training collaborating hybrid convolution-transformer network for automatic identification of reactive lymphocytes in peripheral blood},
+  author={Mei, Liye and Peng, Haoran and Luo, Ping and Jin, Shuangtong and Shen, Hui and He, Jing and Yang, Wei and Ye, Zhiwei and Sui, Haigang and Mei, Mengqing and others},
+  journal={Biomedical Optics Express},
+  volume={15},
+  number={9},
+  pages={5143--5161},
+  year={2024},
+  publisher={Optica Publishing Group}
+}
 ```
 <p align="center"> <img src="images/model.jpg" width="80%"> </p>
 
