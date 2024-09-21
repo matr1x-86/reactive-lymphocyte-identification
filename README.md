@@ -50,7 +50,7 @@ PBC
 ├── test
 ```
 ### 2. Weigts (Optional)
-- The download link for our weights is [here](https://pan.baidu.com/s/1Alwscm-GYbtHtbNr5apAXw?pwd=435b).
+The download link for our weights is [here](https://pan.baidu.com/s/1Alwscm-GYbtHtbNr5apAXw?pwd=435b).
 ### 3. Begin to train
 ```
 bash train.sh --model nextvit_small --batch-size 32 --lr 3e-4 --warmup-epochs 0 -weight-decay 1e-8 --epochs 100 --sched step --decay-epochs 80 --input-size 224 -resume ../checkpoints/nextvit_small_in1k_224.pth --finetune --data-path
