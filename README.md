@@ -49,7 +49,7 @@ PBC
 ├── val
 ├── test
 ```
-### 2. Weigts (Optional)
+### 2. Weights (Optional)
 The download link for our weights is [here](https://pan.baidu.com/s/1Alwscm-GYbtHtbNr5apAXw?pwd=435b).
 ### 3. Begin to train
 ```
