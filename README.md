@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 ## Train
 ### 1. Prepare training data
-The download link for our dataset is [here](https://pan.baidu.com/s/1-raJiW7a3Es0MFk-5VMKqQ?pwd=wf5f).
+The dataset can be obtained by contacting me.
 ```
 PBC
 ├── train
@@ -82,3 +82,4 @@ bash train.sh --model nextvit_small --batch-size 32 --lr 3e-4 --warmup-epochs 0 
 | **Reactive Lymphocyte** |    84.65    |    88.03    |    86.31    |     376     |
 ## Acknowledgements
 This code is built on [Next-ViT](https://github.com/bytedance/Next-ViT). We thank the authors for sharing the codes.
+
